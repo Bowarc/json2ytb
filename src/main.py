@@ -2,7 +2,6 @@ import sys
 import json
 from typing import List # pylint: disable=unused-import
 from option import Result, Option, Ok, Err # pylint: disable=unused-import
-from rust_enum import Case, enum # pylint: disable=unused-import
 from google_auth_oauthlib.flow import InstalledAppFlow
 import googleapiclient.discovery
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -13,11 +12,6 @@ from json_helper import json_to_objects
 from models import Song, YtVideo, Playlist
 
 colorama.init(autoreset=True)
-
-# @enum
-# class Error:
-#     FileOpenFail = Case(inner=str)
-#     Test = Case()
 
 def read_playlist(name: str) -> Result[List[Song], str]:
     try:
