@@ -23,3 +23,7 @@ I hope I never have to work with any google api ever again.
 ## Thx to
   https://stackoverflow.com/questions/72029929/create-playlist-by-youtube-data-api-python  
   https://stackoverflow.com/questions/61702338/adding-multiple-videos-to-youtube-playlist-via-api-python (even tho it diddn't work)
+
+### Docs
+  The only good documentation available: 
+  https://ai.google.dev/gemini-api/docs/oauth
