@@ -1,0 +1,4 @@
+playlists/*
+secret.json
+.venv
+*.pyc
